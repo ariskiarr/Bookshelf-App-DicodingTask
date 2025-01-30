@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+  }
+  
+
+  form div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    width: 111px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 120px);
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #incompleteBookList, #completeBookList {
+    padding: 10px;
+    background: #eee;
+    border-radius: 4px;
+  }
+  
+  [data-testid="bookItem"] {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  [data-testid="bookItem"] h3 {
+    margin: 0 0 5px 0;
+  }
+  
+  [data-testid="bookItem"] p {
+    margin: 3px 0;
+  }
+  
+  [data-testid="bookItem"] div {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  [data-testid="bookItem"] button {
+    flex: 1;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+
+  [data-testid="bookItemIsCompleteButton"] {
+    flex-grow: 1;
+    font-size: 1rem;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #bookFormIsComplete {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  #searchBook {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  #searchBook input {
+    flex: 1;
+  }
+  
+  #searchSubmit {
+    padding: 8px 15px;
+  }
